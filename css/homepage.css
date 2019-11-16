@@ -1,0 +1,128 @@
+
+body{
+    font-family: Verdana;
+    margin: 0;
+}
+
+header{
+    background-color:#A9A9A9;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.banner{
+    width:  80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.name{
+    padding:10px 0;
+    font-size: 20px;
+
+}
+
+.banner ul{
+    padding: 10px 0;
+    margin-left:66%;
+}
+
+.banner ul li{
+    list-style:  none;
+    display: inline;
+}
+
+.botton{
+    background-color:#808080;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left:5px;
+    font-size: 15px;
+    color: white;
+    box-shadow: 1px 1px 5px grey;
+    align-self: flex-end;
+}
+
+.botton a:link,
+.name a:link{
+    text-decoration: none;
+    color: white;
+}
+  
+.botton a:hover{
+    background-color:indianred;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 30px black;
+}
+
+.botton a:visited,
+.name a:visited{
+    text-decoration-color: none;
+    text-decoration-style: none;
+    color: white;
+    width: 150%;
+}
+
+
+.main-content{
+    margin:auto;
+    margin-top: 91px;
+    width: 80%;
+}
+
+.main-intro{
+    padding: 70px 0;
+    font-size: 35px;
+    line-height: 1.2;
+    width: 80%;
+    margin: auto;
+}
+.main-intro p{
+    margin: 0 25px;
+}
+
+.firstp{
+    margin-bottom: 40px;
+}
+
+img{
+    text-align: center;
+    width: 10%;
+    
+}
+.godown{
+    text-align:center;
+}
+
+img:hover{
+    margin-top: 5px;
+    width: 13%;
+}
+
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projects{
+    background-color: brown;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 400px;
+    height: 300px;
+}
+
+
+.main-footer{
+    background-color: #A9A9A9;
+    text-align: center;
+    padding: 15px 0;
+    margin-left: 0;
+    margin-left: 0;
+    font-size: 12px;
+}
+
+@media (min-width:)
